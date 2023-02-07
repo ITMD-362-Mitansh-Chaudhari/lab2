@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+
+<head>
+    <title>Lab 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+</head>
+
+<body>
+    <h1 id="page-header"> Welcome to the Site, Please enter the following Information!</h1>
+    <form>
+        <div id="email">
+            <label for="email"> Email Address: </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div id="number">
+            <label for="phone"> Phone Number: </label>
+            <input type="tel" id=" phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        <div id="dob">
+            <label for="dob"> Date of Brith: </label>
+            <input type="date" id="dob" name="dob" max="2023-02-07" required>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

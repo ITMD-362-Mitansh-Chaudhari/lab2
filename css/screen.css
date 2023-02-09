@@ -32,15 +32,15 @@ label {
     margin-bottom: 10px;
 }
 
-#email {
+#EmailAdress {
     color: rgb(5, 1, 239);
 }
 
-#number {
+#PhoneNumber {
     color: rgb(132, 102, 3);
 }
 
-#dob {
+#Brithdate {
     color: rgb(53, 207, 18);
 }
 
